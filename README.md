@@ -9,7 +9,7 @@ La tienda cuenta con las siguientes funcionalidades:
 - **Catálogo de productos:** los usuarios pueden ver los productos disponibles en la tienda, ordenarlos por categoría, precio, popularidad, etc. y acceder a la página de detalles de cada producto.
 
 ######  "Próximamente" 
-- ** Carrito de compras:** los usuarios pueden agregar productos al carrito de compras y ver el total a pagar. También pueden modificar la cantidad de productos en el carrito y eliminar productos.
+- **Carrito de compras:** los usuarios pueden agregar productos al carrito de compras y ver el total a pagar. También pueden modificar la cantidad de productos en el carrito y eliminar productos.
 - **Proceso de checkout**: los usuarios pueden ingresar su información de envío y pago y confirmar su compra. También se les muestra un resumen de su pedido antes de confirmar.
 - **Gestión de productos:** los administradores de la tienda pueden agregar, editar y eliminar productos del catálogo. También pueden ver las órdenes de compra y marcarlas como enviadas.
 
@@ -33,4 +33,4 @@ Para modificar el catálogo de productos, las órdenes de compra y otras funcion
 Si deseas contribuir al proyecto Alurageek, puedes realizar un pull request en este repositorio.
 
 #### Autor
-El autor de este proyecto es Marcosegm.
+Marcosegm.
