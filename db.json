@@ -1,0 +1,28 @@
+{
+  "producto": [
+    {
+      "name": "Esto es una prueba",
+      "imagenUrl": "https://live.staticflickr.com/65535/52766520811_0a6784ce18_m.jpg",
+      "price": "40.00",
+      "description": "este es un producto",
+      "category": "StarWars",
+      "id": 1
+    },
+    {
+      "name": "Sonic",
+      "imagenUrl": "https://live.staticflickr.com/65535/52767021976_e2a4025e0f_m.jpg",
+      "price": "23.00",
+      "description": "jueguete de soni",
+      "category": "jueguete",
+      "id": "cdf28e79-5047-4cd7-9055-d1e450024a77"
+    },
+    {
+      "name": "REYHERMOSO",
+      "imagenUrl": "https://live.staticflickr.com/65535/52767277174_0a7ccc8e13_m.jpg",
+      "price": "1997",
+      "description": "REY HERMOSO PIXIOSO",
+      "category": "REY",
+      "id": "bcb5d415-1bde-49c1-b425-b3b9eb04a33f"
+    }
+  ]
+}

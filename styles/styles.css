@@ -1,0 +1,28 @@
+:root {
+    --background-color1: #FFFFFF;
+    --background-color2: #EAF2FD; 
+    --background-color3: #247AE4;
+    --background-color4: #E5E5E5;
+    --text-color: #FFFFFF;
+    --text-color1: #464646;
+    --text-color2: #2A7AE4;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--background-color1);
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}

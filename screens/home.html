@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/contacto.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/componentes/botones.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <div class="header-nav-left">
+                <img class="logo" src="../assets/Logo.svg" alt="Logo de AluraGeek">
+                <div class="header-input-container">
+                    <input type="text" placeholder="¿Qué deseas buscar?">
+                    <span class="search-icon"></span>
+                </div>
+            </div>
+            <span class="search-icon-mobile"></span>
+        </nav>
+    </header>
+    <main>
+        <section class="login">
+            <form action="/" >
+                <legend class="form-label-login">Iniciar Sesión</legend>
+                
+                <label for="email"></label> 
+                <input class="input-login"  name="email" id="email"  type="text" placeholder="Escriba su correo electrónico" required data-tipo="correo">
+
+                <label for="email"></label>       
+                <input class="input-login"  name="email" id="email"  type="text" placeholder="Escriba su contraseña" required data-tipo="contraseña">
+                
+                <input class="login-btn" type="submit" value="Entrar" onclick="location.href='./productos.html'">
+            </form>
+        </section>
+        <section class="contacto">
+            <div class="contacto-container-left">
+                <img class="logo" src="../assets/Logo.svg" alt="Logo de AluraGeek">
+                <div>
+                    <ul>
+                        <li><a href="/">Quiénes somos</a></li>
+                        <li><a href="/">Política de privacidad </a></li>
+                        <li><a href="/">Porgrama de fidelidad</a></li>
+                        <li><a href="/">Nuestra Tiendas</a></li>
+                        <li><a href="/">Quiero ser franquiciado</a></li>
+                        <li><a href="/">Anúncie aqui</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="formulario">
+                <form action="/" >
+                    <legend class="form__label">Hable con nosotros</legend>
+                    <div class="input-container">
+                        <input class="input"  name="name" id="name"  type="text" placeholder="Nombre" required data-tipo="nombre">
+                        <label class="input-label"  for="name">Nombre</label>      
+                    </div>
+                    <label for="mensaje"></label>
+                    <textarea class="text-area" id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+                        
+                    <input class="form-btn" type="submit" value="Enviar mensaje">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Website Design by Marcos Guzmán</p>
+        <P>2023</P>
+    </footer>
+</body>
+</html>
