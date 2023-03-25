@@ -21,9 +21,36 @@ const crearProducto = (name, imagenUrl, price, description, category) =>  {
     });
 };
 
+const eliminarProducto = (id) => {
+    return fetch(`http://localhost:3000/producto/${id}`, {
+        method: "DELETE"
+    })
+}
+
+const detalleProducto = (id) => {
+    return fetch(`http://localhost:3000/producto/${id}`)
+    .then((respuesta) => respuesta.json()
+    );
+};
+
+const actualizarProducto = (name, imagenUrl, price, description, category, id) => {
+    return fetch(`http://localhost:3000/producto/${id}`, {
+        method: "PUT",
+        headers : {
+            "Content-Type" : "application/json"
+        },
+        body: JSON.stringify({name, imagenUrl, price, description, category })
+    })
+    .then(respuesta => respuesta)
+    .catch((error) => console.log(error));
+}
+
 export const clientServices = {
     listaProductos,
     crearProducto,
+    eliminarProducto,
+    detalleProducto,
+    actualizarProducto,
 };
 
 

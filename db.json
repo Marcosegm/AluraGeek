@@ -1,20 +1,28 @@
 {
   "producto": [
     {
-      "name": "Esto es una prueba",
-      "imagenUrl": "https://live.staticflickr.com/65535/52766520811_0a6784ce18_m.jpg",
-      "price": "40.00",
-      "description": "este es un producto",
-      "category": "StarWars",
-      "id": 1
+      "name": "Starwars lego editado x2",
+      "imagenUrl": "https://live.staticflickr.com/65535/52767436200_113dc6d4f9_m.jpg",
+      "price": "100.00",
+      "description": "Starwars lego ",
+      "category": "Starwars editado ",
+      "id": "e6c54d66-691c-4a7d-a9de-20112db97fdf"
     },
     {
-      "name": "Sonic",
-      "imagenUrl": "https://live.staticflickr.com/65535/52767021976_e2a4025e0f_m.jpg",
-      "price": "23.00",
-      "description": "jueguete de soni",
-      "category": "jueguete",
-      "id": "cdf28e79-5047-4cd7-9055-d1e450024a77"
+      "name": "Baby Yoda",
+      "imagenUrl": "https://live.staticflickr.com/65535/52767022211_c2ac0e1482_m.jpg",
+      "price": "10.00",
+      "description": "Baby Yoda",
+      "category": "StarWars",
+      "id": "01ef20b7-14f6-4619-b4ce-5507d5a88d69"
+    },
+    {
+      "name": "Xbox",
+      "imagenUrl": "https://live.staticflickr.com/65535/52766484207_d77b239908_m.jpg",
+      "price": "20.00",
+      "description": "xbox one",
+      "category": "Consolas",
+      "id": "2161726a-c3ec-47a3-acac-a0ce9aec299b"
     }
   ]
 }
