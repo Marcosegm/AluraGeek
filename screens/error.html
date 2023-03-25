@@ -4,16 +4,16 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nuevo producto</title>
+        <title>Error</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../styles/styles.css">
         <link rel="stylesheet" href="../styles/header.css">
-        <link rel="stylesheet" href="../styles/add-productos.css">
+        <link rel="stylesheet" href="../styles/error.css">
         <link rel="stylesheet" href="../styles/contacto.css">
         <link rel="stylesheet" href="../styles/componentes/botones.css">
         <link rel="stylesheet" href="../styles/footer.css">
+        <link rel="stylesheet" href="../styles/styles.css">
     </head>
     <body>
         <header>
@@ -30,34 +30,16 @@
             </nav>
         </header>
         <main>
-            <section class="add-producto">
-                <form action="/" data-form>
-                    <legend class="form-label-login">Editar producto</legend>
-                    <div class="input-container-add">
-                        <input class="input-add"  name="url" id="url"  type="text" placeholder="URL de imagen" required data-url>
-                        <label class="input-label-add"  for="url">URL de imagen</label>      
-                    </div>
-                    
-                    <div class="input-container-add">
-                        <input class="input-add"  name="categoria" id="categoria"  type="text" placeholder="Categoria" required data-category>
-                        <label class="input-label-add"  for="categoria">Categoria</label>      
-                    </div>
-                    <div class="input-container-add">
-                        <input class="input-add"  name="nombreProducto" id="nombreProducto"  type="text" placeholder="Nombre del Producto" required data-name>
-                        <label class="input-label-add"  for="nombreProducto">Nombre del Producto</label>      
-                    </div>
-
-                    <div class="input-container-add">
-                        <input class="input-add"  name="precio" id="precio"  type="text" placeholder="Precio" required data-price>
-                        <label class="input-label-add"  for="precio">Precio</label>     
-                    </div> 
-                    
-                    <label for="mensaje"></label>
-                    <textarea class="text-area-add" id="mensaje" name="mensaje" rows="5" placeholder="Descripción del producto" required data-description></textarea>
-
-                    <input class="add-btn" type="submit" value="Editar producto">
-
-                </form>
+            <section class="contenedor-mensaje">
+                <div class="mensaje-editado">
+                    <span class="denied-icon"></span>
+                    <h2>
+                      Ops! Ocurrió un error.<br>
+                      Prueba de nuevo en<br>
+                      unos minutos.
+                    </h2>
+                    <a href="../screens/productos.html" class="btn-regresar">Regresar al menú</a>
+                </div>
             </section>
             <section class="contacto">
                 <div class="contacto-container-left">

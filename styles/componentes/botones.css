@@ -76,6 +76,35 @@
     border: none;
     color: var(--text-color);
 }
+/*Botón mensaje editado*/
+
+.btn-edit-product {
+    width: 223px;
+    height: 51px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    background-color: var(--background-color3);
+    border: none;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Boton regresar menú*/
+.btn-regresar {
+    width: 223px;
+    height: 51px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    background-color: var(--background-color3);
+    border: none;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* Cursor pointer*/
 .btn-login:hover,
 .btn-menu-adm:hover,
@@ -106,5 +135,12 @@
         font-size: 1.4rem;
         width: 118px;
         height: 40px;
+    }
+    .btn-edit-product,
+    .btn-regresar {
+        width: 150px;
+        height: 51px;
+        font-weight: 400;
+        font-size: 1.2rem;
     }
 }
