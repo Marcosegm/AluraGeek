@@ -5,16 +5,17 @@
 .info-detalle {
     display: grid;
     grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
-    place-items: center;
     padding: 45px 0;
+    align-items: center;
 }
-.info-detalle img {
+.container-imagen  {
     grid-column: 2;
-    width: 100%;
-    min-width: 254px;
-    max-width: 560px;
-    min-height: 157px;
-    max-height: 403px;
+    display: flex;
+    justify-content: center;
+}
+.container-imagen img {
+    width: 560px;
+    height: 403px;
 }
 .descripcion-producto {
     grid-column: 3;

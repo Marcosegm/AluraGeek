@@ -29,13 +29,8 @@
         </nav>
     </header>
     <main class="info-producto">
-        <section class="info-detalle">
-            <img src="../assets/unsplash_6FDXGY9J6y4.png" alt="">
-            <div class="descripcion-producto">
-                <h2>Producto XYZ</h2>
-                <p>$60.00</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia non corporis ratione, nostrum consequuntur minus iste nobis labore vero sed eveniet ipsum. Odit enim dignissimos, doloremque iste explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime blanditiis eum recusandae corporis perferendis commodi soluta, obcaecati doloremque, </p>
-            </div>
+        <section data-info>
+            
         </section>
         <section class="productos-relacionados">
             <div class="productos-contenedor">
@@ -51,7 +46,7 @@
                             <a href="">Ver producto</a>
                         </div>
                     </div>
-                    
+
 
             </div>
         </section>
@@ -74,11 +69,11 @@
                     <legend class="form__label">Hable con nosotros</legend>
                     <div class="input-container">
                         <input class="input"  name="name" id="name"  type="text" placeholder="Nombre" required data-tipo="nombre">
-                        <label class="input-label"  for="name">Nombre</label>      
+                        <label class="input-label"  for="name">Nombre</label>
                     </div>
                     <label for="mensaje"></label>
                     <textarea class="text-area" id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
-                        
+
                     <input class="form-btn" type="submit" value="Enviar mensaje">
                 </form>
             </div>
@@ -88,5 +83,6 @@
         <p>Website Design by Marcos Guzmán</p>
         <P>2023</P>
     </footer>
+    <script type="module" src="../controllers/info.producto.controller.js"></script>
 </body>
 </html>

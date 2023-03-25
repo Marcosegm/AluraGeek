@@ -1,6 +1,6 @@
 import { clientServices } from "../service/client-service.js"
 
-const detalleProducto = (name, imagenUrl, price) => {
+const detalleProducto = (name, imagenUrl, price,id) => {
     const card = document.createElement("div")
     const contenido = 
         `
@@ -9,7 +9,7 @@ const detalleProducto = (name, imagenUrl, price) => {
             <div class="shopping-cart">
                 <p class="cart-detail">${name}</p>
                 <p class="cart-price">$ ${price}</p>
-                <a href="">Ver producto</a>
+                <a href="../screens/info-producto.html?id=${id}">Ver producto</a>
                 </div>
         </div> `;
     card.innerHTML = contenido;
@@ -28,13 +28,13 @@ clientServices.listaProductos()
 .then((data) => {
     data.forEach ((producto) => {
         if (producto.category == "Star Wars") {
-            const nuevoProducto = detalleProducto(producto.name, producto.imagenUrl, producto.price);
+            const nuevoProducto = detalleProducto(producto.name, producto.imagenUrl, producto.price, producto.id);
             cardContainer1.appendChild(nuevoProducto);
         }else if (producto.category == "Consolas") {
-            const nuevoProducto = detalleProducto(producto.name, producto.imagenUrl, producto.price);
+            const nuevoProducto = detalleProducto(producto.name, producto.imagenUrl, producto.price, producto.id);
             cardContainer2.appendChild(nuevoProducto);
         }else if (producto.category == "Diversos") {
-            const nuevoProducto = detalleProducto(producto.name, producto.imagenUrl, producto.price);
+            const nuevoProducto = detalleProducto(producto.name, producto.imagenUrl, producto.price, producto.id);
             cardContainer3.appendChild(nuevoProducto);
         }
     });
