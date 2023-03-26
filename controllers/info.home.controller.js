@@ -1,6 +1,6 @@
 import { clientServices } from "../service/client-service.js"
 
-const detalleProducto = (name, imagenUrl, price,id) => {
+const detalleProducto = (name, imagenUrl, price, id) => {
     const card = document.createElement("div")
     const contenido = 
         `
@@ -16,13 +16,9 @@ const detalleProducto = (name, imagenUrl, price,id) => {
     return card;
 };
 
-
-
 const cardContainer1 = document.querySelector("[data1-product]");
 const cardContainer2= document.querySelector("[data2-product]");
 const cardContainer3= document.querySelector("[data3-product");
-
-
 
 clientServices.listaProductos()
 .then((data) => {
@@ -39,5 +35,5 @@ clientServices.listaProductos()
         }
     });
 })
-.catch((error) => alert("Ocurrió un error"));
+.catch((error) => alert("Ocurrió un error en home"));
 

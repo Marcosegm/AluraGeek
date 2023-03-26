@@ -51,10 +51,10 @@ const obtenerInformacion = async () => {
             } 
         });
     })
-    .catch((error) => alert("Ocurrió un error"));
+    .catch((error) => alert("Ocurrió un error en info producto"));
 };
 
-obtenerInformacion();
+
 
 const obtenerDetallesProductosSimilares = async () => {
     const url = new URL(window.location);
@@ -74,10 +74,10 @@ const obtenerDetallesProductosSimilares = async () => {
                 } 
             });
         })
-        .catch((error) => alert("Ocurrió un error"));
+        .catch((error) => alert("Ocurrió un error en info producto"));
     })
-    .catch((error) => alert("Ocurrió un error"));
+    .catch((error) => alert("Ocurrió un error en info producto"));
 };
 
 obtenerDetallesProductosSimilares();
-
+obtenerInformacion();
