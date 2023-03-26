@@ -1,11 +1,19 @@
 {
-  "name": "alura-git",
+  "name": "alurageek",
   "version": "1.0.0",
-  "description": "",
+  "description": "Alura E-commerce",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcosegm/AluraGeek.git"
+  },
   "author": "Marcos Guzman",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcosegm/AluraGeek/issues"
+  },
+  "homepage": "https://github.com/Marcosegm/AluraGeek#readme"
 }

@@ -17,8 +17,8 @@ const detalleProducto = (name, imagenUrl, price, id) => {
 };
 
 const cardContainer1 = document.querySelector("[data1-product]");
-const cardContainer2= document.querySelector("[data2-product]");
-const cardContainer3= document.querySelector("[data3-product");
+const cardContainer2 = document.querySelector("[data2-product]");
+const cardContainer3 = document.querySelector("[data3-product]");
 
 clientServices.listaProductos()
 .then((data) => {
