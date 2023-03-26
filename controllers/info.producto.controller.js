@@ -17,23 +17,67 @@ const detalleProducto = (name, imagenUrl, price,description) => {
     return card;
 };
 
+const productoSimilares = (name, imagenUrl, price, id) => {
+    const card = document.createElement("div")
+    const contenido = 
+        `
+        <div class="product-card">
+            <img src="${imagenUrl}" >
+            <div class="shopping-cart">
+                <p class="cart-detail">${name}</p>
+                <p class="cart-price">$ ${price}</p>
+                <a href="../screens/info-producto.html?id=${id}">Ver producto</a>
+                </div>
+        </div> `;
+    card.innerHTML = contenido;
+    return card;
+};
+
 const productInfoContainer = document.querySelector("[data-info]");
+const productoSimilar = document.querySelector("[data-product]");
+
+
 
 const obtenerInformacion = async () => {
     const url = new URL(window.location);
-    const id = url.searchParams.get("id"); 
-    
-    clientServices.listaProductos(id)
+    const id = url.searchParams.get("id");
+   
+    clientServices.listaProductos()
     .then((data) => {
         data.forEach ((producto) => {
             if (producto.id === id) {
                 const info = detalleProducto(producto.name, producto.imagenUrl, producto.price, producto.description );
                 productInfoContainer.appendChild(info);
-            }
+            } 
         });
     })
     .catch((error) => alert("Ocurrió un error"));
+};
 
-}
 obtenerInformacion();
+
+const obtenerDetallesProductosSimilares = async () => {
+    const url = new URL(window.location);
+    const id = url.searchParams.get("id");
+   
+    clientServices.detalleProducto(id)
+    .then((data) => {
+        const categoria = data.category;
+        const idProducto = data.id;
+
+        clientServices.listaProductos()
+        .then((dato) => {
+            dato.forEach ((producto) => {
+                if (producto.category === categoria && producto.id!=idProducto) {
+                    const productoS = productoSimilares(producto.name, producto.imagenUrl, producto.price, producto.id);
+                    productoSimilar.appendChild(productoS); 
+                } 
+            });
+        })
+        .catch((error) => alert("Ocurrió un error"));
+    })
+    .catch((error) => alert("Ocurrió un error"));
+};
+
+obtenerDetallesProductosSimilares();
 
