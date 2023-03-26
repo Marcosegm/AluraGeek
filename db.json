@@ -17,52 +17,12 @@
       "id": "01ef20b7-14f6-4619-b4ce-5507d5a88d69"
     },
     {
-      "name": "Xbox",
-      "imagenUrl": "https://live.staticflickr.com/65535/52766484207_d77b239908_m.jpg",
-      "price": "27.00",
-      "description": "xbox one",
-      "category": "Consolas",
-      "id": "2161726a-c3ec-47a3-acac-a0ce9aec299b"
-    },
-    {
       "name": "Camiseta",
       "imagenUrl": "https://live.staticflickr.com/65535/52767511488_c005e2e305_m.jpg",
       "price": "40.00",
       "description": "camiseta polo",
       "category": "Diversos",
       "id": "3805206a-e566-41a1-8318-ec3318bb4ba9"
-    },
-    {
-      "name": "Yoda",
-      "imagenUrl": "https://live.staticflickr.com/65535/52767022161_7167fe7d9b_m.jpg",
-      "price": "15.00",
-      "description": "figura de plástico del maestro Yoda",
-      "category": "Star Wars",
-      "id": "50fc8286-ee13-46a0-92db-a26b6492e2bc"
-    },
-    {
-      "name": "Play Station 4",
-      "imagenUrl": "https://live.staticflickr.com/65535/52766484232_62fffff857_m.jpg",
-      "price": "500.00",
-      "description": "Play station generación 4",
-      "category": "Consolas",
-      "id": "6e5104e8-80bc-48ff-939f-57a0e086a0f6"
-    },
-    {
-      "name": "Camiseta Snes",
-      "imagenUrl": "https://live.staticflickr.com/65535/52767435960_5fb1e77e80_m.jpg",
-      "price": "25.00",
-      "description": "Camiseta de algodón ",
-      "category": "Diversos",
-      "id": "0068c308-6859-49ec-b19d-50f8bba2a7aa"
-    },
-    {
-      "name": "Game Boy",
-      "imagenUrl": "https://live.staticflickr.com/65535/52767511228_3793f8411e_m.jpg",
-      "price": "15.00",
-      "description": "Game boy ",
-      "category": "Consolas",
-      "id": "fb1a18ba-f20a-428d-b469-32aa6bfa3c07"
     }
   ]
 }
