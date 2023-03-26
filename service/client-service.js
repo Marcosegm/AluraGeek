@@ -8,11 +8,8 @@
 //DELETE - DELETE 
 
 
-const listaProductos = () => {
-    return fetch("http://localhost:3000/producto")
-    .then((respuesta) => respuesta.json()
-    )
-};
+const listaProductos = () => 
+    fetch("http://localhost:3000/producto").then((respuesta) => respuesta.json());
 
 const detalleProducto = (id) => {
     return fetch(`http://localhost:3000/producto/${id}`)
