@@ -24,7 +24,7 @@ const crearNuevoProducto = (name, imagenUrl, price, id) => {
         .then(respuesta => {
             console.log(respuesta);
         })
-        .catch((error) => alert("Ocurrio un error"))
+        .catch(error => console.log(error))
     });
     return card;
 };
@@ -38,4 +38,4 @@ clientServices.listaProductos()
         cardContainer.appendChild(nuevoProducto);
     });
 })
-.catch((error) => alert("Ocurrió un error"));
+.catch(error => console.log(error))

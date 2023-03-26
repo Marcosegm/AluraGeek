@@ -35,5 +35,5 @@ clientServices.listaProductos()
         }
     });
 })
-.catch((error) => alert("Ocurrió un error en home"));
+.catch(error => console.log(error))
 

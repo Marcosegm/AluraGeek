@@ -51,7 +51,7 @@ const obtenerInformacion = async () => {
             } 
         });
     })
-    .catch((error) => alert("Ocurrió un error en info producto"));
+    .catch(error => console.log(error))
 };
 
 
@@ -74,9 +74,10 @@ const obtenerDetallesProductosSimilares = async () => {
                 } 
             });
         })
-        .catch((error) => alert("Ocurrió un error en info producto"));
+        .catch(error => console.log(error))
     })
-    .catch((error) => alert("Ocurrió un error en info producto"));
+    .catch(error => console.log(error))
+    
 };
 
 obtenerDetallesProductosSimilares();
