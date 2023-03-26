@@ -24,7 +24,7 @@ const crearNuevoProducto = (name, imagenUrl, price, id) => {
         .then(respuesta => {
             console.log(respuesta);
         })
-        .catch(error => alert("Ocurrio un error"))
+        .catch((error) => alert("Ocurrio un error"))
     });
     return card;
 };

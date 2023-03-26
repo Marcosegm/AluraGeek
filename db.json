@@ -23,6 +23,78 @@
       "description": "camiseta polo",
       "category": "Diversos",
       "id": "3805206a-e566-41a1-8318-ec3318bb4ba9"
+    },
+    {
+      "name": "Xbox",
+      "imagenUrl": "https://live.staticflickr.com/65535/52766484207_d77b239908_m.jpg",
+      "price": "250.00",
+      "description": "Xbox one",
+      "category": "Consolas",
+      "id": "4dfdceda-0429-43c8-9287-7a6486754fe8"
+    },
+    {
+      "name": "Nintendo Switch",
+      "imagenUrl": "https://live.staticflickr.com/65535/52767276704_e8bd238a00_m.jpg",
+      "price": "150.00",
+      "description": "Nintendo portatil",
+      "category": "Consolas",
+      "id": "9e57cb72-7f7c-498d-b28d-5bc64bc6f8a6"
+    },
+    {
+      "name": "Camiseta",
+      "imagenUrl": "https://live.staticflickr.com/65535/52767022001_d96f1e3ace_m.jpg",
+      "price": "15.00",
+      "description": "Camiseta de algodon",
+      "category": "Diversos",
+      "id": "16d1cf69-ec12-4612-8a4d-964319376a96"
+    },
+    {
+      "name": "Star wars stormtrooper",
+      "imagenUrl": "https://live.staticflickr.com/65535/52767022171_b47801029d_m.jpg",
+      "price": "10.00",
+      "description": "En el universo ficticio de Star Wars, los Stormtroopers o Tropas de Asalto son las tropas de asalto del Imperio Galáctico, aunque también se deriva este nombre a los soldados de la Primera Orden.​ De su nombre proviene la expresión de «efecto Stormtrooper",
+      "category": "Star Wars",
+      "id": "d0e6de8d-728c-43d9-b0da-a0b4ecf5efb8"
+    },
+    {
+      "name": "Kylo Ren",
+      "imagenUrl": "https://live.staticflickr.com/65535/52767277174_0a7ccc8e13_m.jpg",
+      "price": "50.00",
+      "description": "Kylo Ren ​​​ es un personaje ficticio del universo de Star Wars. Introducido en la película de 2015 Star Wars: El despertar de la Fuerza, es interpretado por Adam Driver. Es hijo de los personajes Han Solo y Leia Organa, y nieto de Anakin Skywalker y Padmé Amidala, y aprendiz del Líder supremo Snoke.",
+      "category": "Star Wars",
+      "id": "f8754183-7f3d-4673-bf1a-976b399c0b4c"
+    },
+    {
+      "name": "Play station 4",
+      "imagenUrl": "https://live.staticflickr.com/65535/52766484232_62fffff857_m.jpg",
+      "price": "350.00",
+      "description": "¿QUÉ ES UN PS4? La PlayStation 4 o PS4 es la cuarta consola de Sony, lanzada en 2013. La PS4 de Sony está disponible en tres versiones; la PlayStation 4, la PlayStation 4 Slim y la PlayStation 4 Pro. Los juegos de PS4 se pueden comprar directamente en la tienda oficial PlayStation Store",
+      "category": "Consolas",
+      "id": "2fe2e81d-edd3-495a-a2f7-04684faf3d59"
+    },
+    {
+      "name": "Nintendo GameBoy",
+      "imagenUrl": "https://live.staticflickr.com/65535/52767511228_3793f8411e_m.jpg",
+      "price": "150.00",
+      "description": "La Game Boy es una videoconsola portátil desarrollada y comercializada por Nintendo, lanzada por primera vez en Japón y América del Norte en 1989, y en Europa un año después​. Perteneció a la línea de consolas Game Boy, siendo esta la primera de la serie",
+      "category": "Consolas",
+      "id": "ff9f6a0f-03e9-49ec-b476-bd29cfa0ac2b"
+    },
+    {
+      "name": "Sonic",
+      "imagenUrl": "https://live.staticflickr.com/65535/52767021976_e2a4025e0f_m.jpg",
+      "price": "15.00",
+      "description": "Sonic",
+      "category": "Diversos",
+      "id": "59da1135-a14c-4dde-95c9-3195d7bf6839"
+    },
+    {
+      "name": "Pikachu",
+      "imagenUrl": "https://live.staticflickr.com/65535/52767276989_857aaa1f20_m.jpg",
+      "price": "15.00",
+      "description": "Pikachu",
+      "category": "Diversos",
+      "id": "a461906a-d0f5-4e79-bb23-cc67da3e4313"
     }
   ]
 }
