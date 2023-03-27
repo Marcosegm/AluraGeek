@@ -10,11 +10,9 @@
 
 // const listaProductos = () => 
 //     fetch("http://localhost:3000/producto").then( (respuesta) => respuesta.json());
-const listaProductos = () => {
-    return fetch("http://localhost:3000/producto")
-    .then( (respuesta) => respuesta.json());
 
-}
+const listaProductos = () => fetch("http://localhost:3000/producto", { mode: 'cors' }).then( (respuesta) => respuesta.json());
+
 
 
 
