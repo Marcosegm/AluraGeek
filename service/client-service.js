@@ -8,14 +8,15 @@
 //DELETE - DELETE 
 
 
-const listaProductos = () => 
-    fetch("http://localhost:3000/producto").then((respuesta) => respuesta.json());
+// const listaProductos = () => 
+//     fetch("http://localhost:3000/producto").then( (respuesta) => respuesta.json());
+const listaProductos = () => {
+    return fetch("http://localhost:3000/producto")
+    .then( (respuesta) => respuesta.json());
 
-const detalleProducto = (id) => {
-    return fetch(`http://localhost:3000/producto/${id}`)
-    .then((respuesta) => respuesta.json()
-    );
-};
+}
+
+
 
 const crearProducto = (name, imagenUrl, price, description, category) =>  {
     return fetch("http://localhost:3000/producto", {
@@ -33,7 +34,11 @@ const eliminarProducto = (id) => {
     })
 }
 
-
+const detalleProducto = (id) => {
+    return fetch(`http://localhost:3000/producto/${id}`)
+    .then((respuesta) => respuesta.json()
+    );
+};
 
 const actualizarProducto = (name, imagenUrl, price, description, category, id) => {
     return fetch(`http://localhost:3000/producto/${id}`, {

@@ -4,7 +4,7 @@
 }
 .info-detalle {
     display: grid;
-    grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
+    grid-template-columns: 0.3fr 1fr 1fr 0.2fr;
     padding: 45px 0;
     align-items: center;
 }
@@ -14,8 +14,10 @@
     justify-content: center;
 }
 .container-imagen img {
-    width: 560px;
-    height: 403px;
+    /* width: 560px;*/
+    height: 450px;
+    width: 100%;
+    
 }
 .descripcion-producto {
     grid-column: 3;
@@ -43,7 +45,7 @@
 }
 .productos-relacionados {
     display: grid;
-    grid-template-columns: 0.2fr 2fr 0.2fr;
+    grid-template-columns: 0.3fr 2fr 0.2fr;
     padding-bottom: 45px; 
 }
 .productos-contenedor {

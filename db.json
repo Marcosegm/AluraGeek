@@ -3,7 +3,7 @@
     {
       "name": "Starwars lego ",
       "imagenUrl": "https://live.staticflickr.com/65535/52767436200_113dc6d4f9_m.jpg",
-      "price": "24.00",
+      "price": "25.00",
       "description": "Starwars lego",
       "category": "Star Wars",
       "id": "e6c54d66-691c-4a7d-a9de-20112db97fdf"
@@ -12,7 +12,7 @@
       "name": "Baby Yoda",
       "imagenUrl": "https://live.staticflickr.com/65535/52767022211_c2ac0e1482_m.jpg",
       "price": "15.00",
-      "description": "Baby Yoda",
+      "description": "Baby Yoda ",
       "category": "Star Wars",
       "id": "01ef20b7-14f6-4619-b4ce-5507d5a88d69"
     },
