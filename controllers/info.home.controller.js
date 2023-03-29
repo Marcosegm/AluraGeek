@@ -32,6 +32,8 @@ clientServices.listaProductos()
         }else if (producto.category == "Diversos") {
             const nuevoProducto = detalleProducto(producto.name, producto.imagenUrl, producto.price, producto.id);
             cardContainer3.appendChild(nuevoProducto);
+        }else {
+            console.log("error")
         }
     });
 })
