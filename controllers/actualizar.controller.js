@@ -1,6 +1,6 @@
 import { clientServices } from "../service/client-service.js";
 
-const formulario = document.querySelector("[data-form]");
+const formulario = document.querySelector("[data-form2]");
 
 const obtenerInformacion = async () => {
     const url = new URL(window.location);

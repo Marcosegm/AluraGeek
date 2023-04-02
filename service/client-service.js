@@ -8,41 +8,34 @@
 //DELETE - DELETE 
 
 
-// const listaProductos = () => 
-//     fetch("http://localhost:3000/producto").then( (respuesta) => respuesta.json());
-
-
-const listaProductos = () => {
-    return fetch("http://localhost:3000/producto")
-    .then( respuesta => respuesta.json())
-    .catch(error => console.log(error))
-};
+const listaProductos = () => 
+    fetch("https://6420f3ee82bea25f6d097324.mockapi.io/api/producto").then( (respuesta) => respuesta.json());
 
 
 const crearProducto = (name, imagenUrl, price, description, category) =>  {
-    return fetch("http://localhost:3000/producto", {
+    return fetch("https://6420f3ee82bea25f6d097324.mockapi.io/api/producto", {
         method: "POST",
         headers : {
             "Content-Type" : "application/json"
         },
-        body: JSON.stringify({name, imagenUrl, price, description, category, id: uuid.v4() })
+        body: JSON.stringify({name, imagenUrl, price, description, category})
     });
 };
 
 const eliminarProducto = (id) => {
-    return fetch(`http://localhost:3000/producto/${id}`, {
+    return fetch(`https://6420f3ee82bea25f6d097324.mockapi.io/api/producto/${id}`, {
         method: "DELETE"
     })
 }
 
 const detalleProducto = (id) => {
-    return fetch(`http://localhost:3000/producto/${id}`)
+    return fetch(`https://6420f3ee82bea25f6d097324.mockapi.io/api/producto/${id}`)
     .then((respuesta) => respuesta.json()
     );
 };
 
 const actualizarProducto = (name, imagenUrl, price, description, category, id) => {
-    return fetch(`http://localhost:3000/producto/${id}`, {
+    return fetch(`https://6420f3ee82bea25f6d097324.mockapi.io/api/producto/${id}`, {
         method: "PUT",
         headers : {
             "Content-Type" : "application/json"
